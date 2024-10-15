@@ -44,7 +44,6 @@ go run cmd/client/main.go --async https://www.youtube.com/watch?v=BV7BMtBNmyI ht
 
 При скачивании, рядом с `cmd/server/main.go`, создастся папка `/images` в которую будут скачаны thumbnail'ы. Имена файлов также являются уникальным кодом видео, при подставлении имени файла в конец `https://www.youtube.com/watch?v=` даст ссылку на видео, thumbnail'ом которого является файл.
 
-Для доступа к YouTube из РФ может понадобится VPN или ПО позволящее обходить Deep Packet Inspection ([GoodbyeDpi](https://github.com/ValdikSS/GoodbyeDPI))
 
 ## Запуск тестов
 ```
