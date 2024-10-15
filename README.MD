@@ -39,7 +39,7 @@ go run cmd/client/main.go [--async async download] [Youtube URL's]
 
 Пример:
 ```
-go run cmd/client/main.go --async async download https://www.youtube.com/watch?v=BV7BMtBNmyI https://www.youtube.com/watch?v=ljnZpLSfo2k
+go run cmd/client/main.go --async https://www.youtube.com/watch?v=BV7BMtBNmyI https://www.youtube.com/watch?v=ljnZpLSfo2k
 ```
 
 При скачивании, рядом с `cmd/server/main.go`, создастся папка `/images` в которую будут скачаны thumbnail'ы. Имена файлов также являются уникальным кодом видео, при подставлении имени файла в конец `https://www.youtube.com/watch?v=` даст ссылку на видео, thumbnail'ом которого является файл.
